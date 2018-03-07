@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin" >
+
+    <com.example.abc.TitleLayout
+        android:id="@+id/titleLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.abc.TitleLayout>
+
+        <ListView
+            android:id="@+id/list_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp" >
+        </ListView>
+
+        <Button
+            android:id="@+id/caozuo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/titleLayout2"
+            android:layout_marginTop="27dp"
+            android:text="操作" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create" >
+    
+    <com.example.abc.TitleLayout
+        android:id="@+id/titleLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.abc.TitleLayout>
+    
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name1"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Input Password Here " />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password1"
+        android:layout_below="@+id/qweqw"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Input account Here " />
+    
+  
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="确认注册" />
+
+    <TextView
+        android:id="@+id/qweqw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="新用户注册"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>    

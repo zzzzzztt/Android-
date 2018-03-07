@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding = "10dp"  
+    tools:context=".Msg" >
+
+    //以下为 显示接受消息 的布局
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "left"
+        android:gravity="center"
+        android:background="@drawable/mess_left9">
+ <TextView
+        android:id="@+id/left_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000" />
+            
+     </LinearLayout>
+     //以下为 显示发送消息 的布局
+        <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "right"
+        android:gravity="center"
+        android:background="@drawable/mess_right9">
+ <TextView
+        android:id="@+id/right_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000" />
+            
+     </LinearLayout>
+ </LinearLayout>
+        
